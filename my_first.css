@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    background-color: rgb(47, 34, 228);
+}
+
+.child{
+    height: 200px;
+    width: 19.7%;
+    background-color:rgb(255, 162, 40);
+    display: inline-block;
+}
+
+/* media query for mobile*/
+
+@media (max-width:480px)
+{
+    .container
+    {
+        background-color:rgb(255, 162, 40);
+    }
+    .child{
+        width: 50%;
+        background-color:rgb(47, 34, 228);
+    }
+}
